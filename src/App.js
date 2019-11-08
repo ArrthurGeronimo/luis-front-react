@@ -27,29 +27,30 @@ const App = () => {
       </header>
       <div className="EspacoParaUsar">
         <h1>{values.nome}</h1>
-
-        <table className="table">
-          <thead>
-            <tr>
-              <th scope="col">id</th>
-              <th scope="col">Vento</th>
-              <th scope="col">Temperatura</th>
-            </tr>
-          </thead>
-          <tbody>
-
-            {values.registros.map((registro, index) => (
-
-              <tr key={index}>
-                <th>{registro._id}</th>
-                <td>{registro.vento}</td>
-                <td>{registro.temperaturaAr}</td>
+        
+        <div className="container">
+          <table className="table">
+            <thead>
+              <tr>
+                <th scope="col">id</th>
+                <th scope="col">Vento</th>
+                <th scope="col">Temperatura</th>
               </tr>
+            </thead>
+            <tbody>
 
-            ))}
-          </tbody>
-        </table>
+              {values.registros.map((registro, index) => (
 
+                <tr key={index}>
+                  <th>{registro._id}</th>
+                  <td>{registro.vento}</td>
+                  <td>{registro.temperaturaAr}</td>
+                </tr>
+
+              ))}
+            </tbody>
+          </table>
+        </div>
 
       </div>
     </div>
