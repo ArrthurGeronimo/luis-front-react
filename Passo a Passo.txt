@@ -1,0 +1,2 @@
+1) Usar comando "npx create-react-app -g" para instalar a biblioteca do create-react-app globalmente
+2) Usar comando "npx create-react-app ." para criar um projeto React

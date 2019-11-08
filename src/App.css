@@ -1,0 +1,23 @@
+.App-logo {
+  height: 40vmin;
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 50px;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  padding-left: 30px;
+  display: flex;
+  align-items: center;
+}
+.App-header img {
+  height: 45px;
+  width: auto;
+}
+.App-link {
+  color: #09d3ac;
+}
+.EspacoParaUsar{
+  height: calc(100vh - 50px);
+  width: 100%;
+}
